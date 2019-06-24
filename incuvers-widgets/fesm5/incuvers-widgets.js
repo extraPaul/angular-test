@@ -55,7 +55,10 @@ var IncuversWidgetsModule = /** @class */ (function () {
         { type: NgModule, args: [{
                     declarations: [IncuversWidgetsComponent],
                     imports: [],
-                    exports: [IncuversWidgetsComponent]
+                    exports: [IncuversWidgetsComponent],
+                    entryComponents: [
+                        IncuversWidgetsComponent
+                    ]
                 },] }
     ];
     return IncuversWidgetsModule;

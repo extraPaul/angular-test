@@ -59,7 +59,10 @@
             { type: core.NgModule, args: [{
                         declarations: [IncuversWidgetsComponent],
                         imports: [],
-                        exports: [IncuversWidgetsComponent]
+                        exports: [IncuversWidgetsComponent],
+                        entryComponents: [
+                            IncuversWidgetsComponent
+                        ]
                     },] }
         ];
         return IncuversWidgetsModule;
