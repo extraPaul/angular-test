@@ -1,0 +1,21 @@
+{
+  "name": "incuvers-widgets",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.1",
+    "@angular/core": "^8.0.1"
+  },
+  "main": "bundles/incuvers-widgets.umd.js",
+  "module": "fesm5/incuvers-widgets.js",
+  "es2015": "fesm2015/incuvers-widgets.js",
+  "esm5": "esm5/incuvers-widgets.js",
+  "esm2015": "esm2015/incuvers-widgets.js",
+  "fesm5": "fesm5/incuvers-widgets.js",
+  "fesm2015": "fesm2015/incuvers-widgets.js",
+  "typings": "incuvers-widgets.d.ts",
+  "metadata": "incuvers-widgets.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
